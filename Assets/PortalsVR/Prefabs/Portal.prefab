@@ -70,10 +70,11 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 862d756f3c67d421c9ce251cd604fbf3, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -94,6 +95,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &9018254066227777556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7135572071750201786}
   - component: {fileID: 5838947818787651413}
-  - component: {fileID: 5342068830497437637}
+  - component: {fileID: 997237649797159603}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -385,7 +387,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5342068830497437637
+--- !u!114 &997237649797159603
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -394,57 +396,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 7135572071750201787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57b9885b89b6d4fbe92f77801ecc3671, type: 3}
+  m_Script: {fileID: 11500000, guid: be1db19970181994ea4052a33a6431a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   linkedPortal: {fileID: 0}
-  recursionLimit: 2
-  nearClipOffset: 0
-  nearClipLimit: 0.03
-  offsetAmount: 0.05
-  deformPower: 0.3
+  recursionLimit: 5
+  nearClipOffset: 0.05
+  nearClipLimit: 0.2
+  offsetAmount: 0.044
+  deformPower: 0.25
   clippedObjects: []
-  screens: {fileID: 5028566431729155722}
+  screens: {fileID: 0}
   portalInfo:
     reorderableList:
-      canAdd: 1
-      canRemove: 1
-      draggable: 1
-      expandable: 1
-      multipleSelection: 1
+      canAdd: 0
+      canRemove: 0
+      draggable: 0
+      expandable: 0
+      multipleSelection: 0
       isExpanded: 0
       label:
-        m_Text: Keys
+        m_Text: 
         m_Image: {fileID: 0}
         m_Tooltip: 
-      headerHeight: 18
-      footerHeight: 13
-      slideEasing: 0.15
-      verticalSpacing: 2
-      showDefaultBackground: 1
+      headerHeight: 0
+      footerHeight: 0
+      slideEasing: 0
+      verticalSpacing: 0
+      showDefaultBackground: 0
       elementDisplayType: 0
       elementNameProperty: 
       elementNameOverride: 
       elementIcon: {fileID: 0}
     reqReferences: {fileID: 0}
     isExpanded: 0
-    _keyValues: 0000000001000000
-    _keys: 0000000001000000
-    _values:
-    - meshDeformer: {fileID: 4221096758406188527}
-      screen: {fileID: 5690471650695027707}
-      camera: {fileID: 6984972881149567757}
-      screenMeshFilter: {fileID: 1856213289083535541}
-      eye: {fileID: 0}
-      alias: {fileID: 0}
-      viewTexture: {fileID: 0}
-    - meshDeformer: {fileID: 9018254066227777556}
-      screen: {fileID: 3901906780439409944}
-      camera: {fileID: 1986199664600174407}
-      screenMeshFilter: {fileID: 968230597402416402}
-      eye: {fileID: 0}
-      alias: {fileID: 0}
-      viewTexture: {fileID: 0}
+    _keyValues: 
+    _keys: 
+    _values: []
 --- !u!1 &7450056184441691673
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,10 +503,11 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 862d756f3c67d421c9ce251cd604fbf3, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -539,6 +528,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &4221096758406188527
 MonoBehaviour:
   m_ObjectHideFlags: 0
