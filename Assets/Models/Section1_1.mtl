@@ -1,8 +1,14 @@
 # Created by Kenney (www.kenney.nl)
 
+newmtl wood(Clone)
+Kd 0.84 0.435 0.305
+
+newmtl foliage(Clone)
+Kd 0 0.655 0.486
+
+newmtl woodLight(Clone)
+Kd 0.816 0.58 0.42
+
 newmtl stone(Clone)
 Kd 0.571 0.559 0.736
-
-newmtl stoneDark(Clone)
-Kd 0.403 0.39 0.594
 

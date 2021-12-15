@@ -7,13 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: foliage(Clone)
+    second: {fileID: 2100000, guid: b95db0c49e8d79840b7b75fcc08c4c4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: stone(Clone)
     second: {fileID: 2100000, guid: 7e4faef644e53e64c8d5c4874259a72f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: stoneDark(Clone)
-    second: {fileID: 2100000, guid: 21953557c0391a5479e56f1bb405eeb5, type: 2}
+      name: wood(Clone)
+    second: {fileID: 2100000, guid: 112d938a74ff0264ab3ff9ef7c1b009f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woodLight(Clone)
+    second: {fileID: 2100000, guid: 5bce12f87410e9843bb435ccc95d57d8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
