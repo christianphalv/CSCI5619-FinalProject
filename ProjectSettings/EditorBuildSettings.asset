@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/SimpleDemo.unity
+  - enabled: 0
+    path: Assets/Scenes/FloorOne.unity
     guid: 24fc14f58f29a774e8fb0944fc5d8c58
+  - enabled: 1
+    path: Assets/Scenes/FloorOne Remastered.unity
+    guid: 813541f868246c2409f1b5911929e23e
   - enabled: 1
     path: Assets/Scenes/FloorTwo.unity
     guid: e34007e604dc04946b844a585b312bac
