@@ -7,6 +7,9 @@ public class Player : MonoBehaviour {
     private Vector3 _previousPosition;
     private Vector3 _velocity;
     
+    void Awake(){
+        DontDestroyOnLoad(this.gameObject);
+    }
     void Start() {
         _previousPosition = this.transform.position;
         _velocity = Vector3.zero;
