@@ -29,7 +29,10 @@ public class Section : MonoBehaviour {
 
         // Set stencil ref for this section
         foreach (Renderer renderer in _renderers) {
-            renderer.material.SetInt("_StencilRef", _sectionNumber);
+            Material[] materials = renderer.materials;
+            foreach (Material material in materials) {
+                material.SetInt("_StencilRef", _sectionNumber);
+            }
         }
 
         // Initialize portals
@@ -50,7 +53,10 @@ public class Section : MonoBehaviour {
 
         // Activate materials
         foreach (Renderer renderer in _renderers) {
-            renderer.material.SetInt("_StencilComp", (int) CompareFunction.Always);
+            Material[] materials = renderer.materials;
+            foreach (Material material in materials) {
+                material.SetInt("_StencilComp", (int) CompareFunction.Always);
+            }
         }
 
         // Set to active
@@ -66,7 +72,10 @@ public class Section : MonoBehaviour {
 
         // Deactivate materials
         foreach (Renderer renderer in _renderers) {
-            renderer.material.SetInt("_StencilComp", (int) CompareFunction.Equal);
+            Material[] materials = renderer.materials;
+            foreach (Material material in materials) {
+                material.SetInt("_StencilComp", (int) CompareFunction.Equal);
+            }
         }
 
         // Set to inactive
