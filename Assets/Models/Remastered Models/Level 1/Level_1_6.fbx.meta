@@ -3,7 +3,67 @@ guid: 6a65e69992a14664d99813bbe5517ac0
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat(Clone)
+    second: {fileID: 2100000, guid: 1368cda0e0e1d7c4784c21ab64b3ca92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpetWhite(Clone)
+    second: {fileID: 2100000, guid: 0b352c0cc5fce6e4e904fac1fbe296f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom14(Clone)
+    second: {fileID: 2100000, guid: 98c550e5d7da96f40bb40854ecbeab57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom15(Clone)
+    second: {fileID: 2100000, guid: a28deaf96d1cae9499645bdf26965b09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom23(Clone)
+    second: {fileID: 2100000, guid: 60341841c406544438adf91468913a6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom24(Clone)
+    second: {fileID: 2100000, guid: a8adf11c25810ec4ca956bfcc66e3480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom25(Clone)
+    second: {fileID: 2100000, guid: 95cf5fe735f996f408ade0b6766b8648, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass(Clone)
+    second: {fileID: 2100000, guid: 59e18e22670a8054f89c5a7fce4f9a0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal(Clone)
+    second: {fileID: 2100000, guid: a35dd23967902cd40af5ee4552b9b438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalDark(Clone)
+    second: {fileID: 2100000, guid: 99ca3920b75f3b740a9944f851457608, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalLight(Clone)
+    second: {fileID: 2100000, guid: 7e6204b8447c78c4ba88d6d9b8d71c03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalMedium(Clone)
+    second: {fileID: 2100000, guid: e1650931601cbc34098d7e825a72a270, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

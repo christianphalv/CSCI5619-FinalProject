@@ -3,7 +3,37 @@ guid: 1c61c567409ecc446b13cca9300e25e4
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpet(Clone)
+    second: {fileID: 2100000, guid: 58039bc2726335f488a527c769c01ea2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom13(Clone)
+    second: {fileID: 2100000, guid: f2fb4893fe05e8e43b6ee7a65f295e12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom14(Clone)
+    second: {fileID: 2100000, guid: 0179998f596a1894999a880b830b3768, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom15(Clone)
+    second: {fileID: 2100000, guid: 24b2ee58d69868a4da33f7f042cba40c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom23(Clone)
+    second: {fileID: 2100000, guid: d8961600d427bf045b04e650c0c6746d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stoneLight(Clone)
+    second: {fileID: 2100000, guid: 72730e6a0a4ab044e923105aa3a636c1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

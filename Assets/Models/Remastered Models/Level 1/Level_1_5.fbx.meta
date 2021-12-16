@@ -3,7 +3,37 @@ guid: 89f95947dabc5df4c9a20a353fbfa460
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom13(Clone)
+    second: {fileID: 2100000, guid: a680cc9cf38970542a8d3ba05a7f721f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom14(Clone)
+    second: {fileID: 2100000, guid: b3f61109c9069ee4d9d91cc4391e5e62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom23(Clone)
+    second: {fileID: 2100000, guid: d48ac6748196afe45a1722e9128f2dba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant(Clone)
+    second: {fileID: 2100000, guid: a4ff87f5e2202b34b8667b2191f0f1bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood(Clone)
+    second: {fileID: 2100000, guid: 05536053be08dd64b84e9c79707521b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woodDark(Clone)
+    second: {fileID: 2100000, guid: 8f2458ab013245e4b9eb5cfa64c598a2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

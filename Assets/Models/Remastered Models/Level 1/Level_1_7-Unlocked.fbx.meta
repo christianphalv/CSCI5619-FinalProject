@@ -3,7 +3,42 @@ guid: 15a82d1af6156aa4d95d2a6e3e9b2709
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom13(Clone)
+    second: {fileID: 2100000, guid: 11292dfd6171f3e44bf07a5229f6f9bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom14(Clone)
+    second: {fileID: 2100000, guid: ec81ab18481ab82419d3bd426ce2f270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom15(Clone)
+    second: {fileID: 2100000, guid: 292bfe634cee6e045a65688e3f42f2eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom18(Clone)
+    second: {fileID: 2100000, guid: d8202f85178b3a249a2d26a034e6ef6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom23(Clone)
+    second: {fileID: 2100000, guid: 709764e78c7738b449535d6bbd69ae65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark(Clone)
+    second: {fileID: 2100000, guid: c6ddde25657b1594cb8ccf4f9540b179, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold(Clone)
+    second: {fileID: 2100000, guid: 4659bb06ab1fd014bb1b7d4e1ad62356, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
