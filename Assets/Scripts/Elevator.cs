@@ -27,7 +27,12 @@ public class Elevator : MonoBehaviour
     void OnTriggerEnter(Collider other){
         if(other.CompareTag("MainCamera")){
             Scene currentScene = SceneManager.GetActiveScene();
-            if(currentScene.buildIndex < SceneManager.sceneCount){
+            Debug.Log("curr scene build index: " + currentScene.buildIndex);
+            Debug.Log("count: " + SceneManager.sceneCountInBuildSettings);
+            
+            if(currentScene.buildIndex < SceneManager.sceneCountInBuildSettings){
+                Debug.Log("in elevator to next scene");
+                
                 StartCoroutine(MoveElevatorDoor(currentScene.buildIndex + 1));
             }            
         }
@@ -46,6 +51,15 @@ public class Elevator : MonoBehaviour
         }
         frontWall.transform.localPosition = elevatorClosedPos;
         SceneManager.LoadScene(index);
+        if(SceneManager.GetActiveScene().buildIndex == 1){
+            Debug.Log("SET NEW PARENT");
+            this.transform.SetParent(GameObject.Find("Level_1_1").transform);
+        }
+        else if(SceneManager.GetActiveScene().buildIndex == 2){
+            Debug.Log("SET NEW PARENT");
+            this.transform.SetParent(GameObject.Find("Level_2_1").transform);
+        }
+        
         StartCoroutine(ElevatorWaitTime());
        // StartCoroutine(OpenElevator());
     }
