@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/FloorOne.unity
+    path: 
     guid: 24fc14f58f29a774e8fb0944fc5d8c58
   - enabled: 1
     path: Assets/Scenes/FloorOne Remastered.unity
@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FloorTwo.unity
     guid: e34007e604dc04946b844a585b312bac
+  - enabled: 1
+    path: Assets/Scenes/FloorThree.unity
+    guid: 899dc01a0f4880e47baedd055b3a1d4c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b7be34100507a3f4ab5a0e0fb6617400, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 248fdae7392b2c7488fad485fbe2c5e5, type: 2}

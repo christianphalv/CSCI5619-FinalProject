@@ -12,6 +12,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: carpetDarker(Clone)
+    second: {fileID: 2100000, guid: 4edcf0224733c9b4fb81409b28a435e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpetWhite(Clone)
+    second: {fileID: 2100000, guid: 185ff5eedaf01044bad2038f62a9c3f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: custom13(Clone)
     second: {fileID: 2100000, guid: c98bea84db3cc4b4fb82fadb310985c4, type: 2}
   - first:
@@ -29,6 +39,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: metal(Clone)
     second: {fileID: 2100000, guid: 419f1abc12e30434395f482cf14ae5b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant(Clone)
+    second: {fileID: 2100000, guid: 75d1b9f7a51a3174ead6c964944f86dd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

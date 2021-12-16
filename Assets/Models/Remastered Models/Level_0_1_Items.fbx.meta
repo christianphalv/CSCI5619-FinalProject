@@ -3,7 +3,57 @@ guid: 252d1f6d3cbd84e4d9c7bb1fc4c61b18
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown(Clone)
+    second: {fileID: 2100000, guid: 7911daadf644ec946b3c74b8522566c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green(Clone)
+    second: {fileID: 2100000, guid: ef36b568d4cf8d64e8911fff3fc9b2d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lamp(Clone)
+    second: {fileID: 2100000, guid: 70c971cc612b2064e81ac7c9a5f68bfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal(Clone)
+    second: {fileID: 2100000, guid: b87753e64d0b7c74aa09f31336db6620, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalDark(Clone)
+    second: {fileID: 2100000, guid: d5169ae5250746348b8aa94f4f8a3879, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalLight(Clone)
+    second: {fileID: 2100000, guid: 086074501e0857740abd5a3fb5c1ab89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metalMedium(Clone)
+    second: {fileID: 2100000, guid: b96080f8da4e27240a583e04366d9325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant(Clone)
+    second: {fileID: 2100000, guid: 7dfb72fc7f5f2754c8f6f0f2623bdf91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red(Clone)
+    second: {fileID: 2100000, guid: 2262fda85f2f7c241be5ace1a4c02e26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood(Clone)
+    second: {fileID: 2100000, guid: 24fa5097b2d564541b486381724c7477, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

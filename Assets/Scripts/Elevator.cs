@@ -11,10 +11,11 @@ public class Elevator : MonoBehaviour
     private Vector3 elevatorOpenPos;
     private float duration = 1.0f;
     private float elevatorWaitTime = 4f;
+    [SerializeField] private GameObject exitElevator;
 
     void Awake(){
 
-        DontDestroyOnLoad(this.gameObject);
+        
     }
 
     // Start is called before the first frame update
@@ -25,10 +26,12 @@ public class Elevator : MonoBehaviour
         
     }
     void OnTriggerEnter(Collider other){
-        if(other.CompareTag("MainCamera")){
-            Scene currentScene = SceneManager.GetActiveScene();
-            if(currentScene.buildIndex < SceneManager.sceneCount){
+        if(other.CompareTag("MainCamera") || other.CompareTag("Player")){
+            Scene currentScene = SceneManager.GetActiveScene();            
+            if(currentScene.buildIndex < SceneManager.sceneCountInBuildSettings){
+                DontDestroyOnLoad(this.gameObject);
                 StartCoroutine(MoveElevatorDoor(currentScene.buildIndex + 1));
+                exitElevator.SetActive(true);
             }            
         }
     }
@@ -46,6 +49,18 @@ public class Elevator : MonoBehaviour
         }
         frontWall.transform.localPosition = elevatorClosedPos;
         SceneManager.LoadScene(index);
+
+        //if(index == 1){
+           // Debug.Log("SET NEW PARENT");
+            //SceneManager.MoveGameObjectToScene(this.gameObject, SceneManager.GetSceneByBuildIndex(index));
+            //this.transform.SetParent(GameObject.Find("ImpossibleSpace").transform.GetChild(0).transform);
+       // }
+        // else if(index == 2){
+        //     Debug.Log("SET NEW PARENT");
+        //     SceneManager.MoveGameObjectToScene(this.gameObject, SceneManager.GetActiveScene());
+        //     this.transform.SetParent(GameObject.Find("Level_2_1").transform);
+        // }
+        
         StartCoroutine(ElevatorWaitTime());
        // StartCoroutine(OpenElevator());
     }
@@ -62,6 +77,7 @@ public class Elevator : MonoBehaviour
         }
         frontWall.transform.localPosition = elevatorOpenPos;
         frontWall.SetActive(false);
+       // this.gameObject.SetActive(false);
     }
 
     IEnumerator ElevatorWaitTime(){
