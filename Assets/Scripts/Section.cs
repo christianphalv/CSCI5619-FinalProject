@@ -10,7 +10,7 @@ public class Section : MonoBehaviour {
 
     private Portal[] _portals;
     private Renderer[] _renderers;
-    private bool _isActive;
+    public bool _isActive;
     
 
     void Start() {

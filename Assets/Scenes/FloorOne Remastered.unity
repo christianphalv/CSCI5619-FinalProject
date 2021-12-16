@@ -215,7 +215,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _startingSectionID: 1
-  _player: {fileID: 1236596990}
 --- !u!4 &291949247
 Transform:
   m_ObjectHideFlags: 0
@@ -1786,6 +1785,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3963424212663332914, guid: c6cfb6330da3d2c45ae98075d85066d4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963424213220199266, guid: c6cfb6330da3d2c45ae98075d85066d4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963424213633563430, guid: c6cfb6330da3d2c45ae98075d85066d4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963424214126024790, guid: c6cfb6330da3d2c45ae98075d85066d4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3963424214687634520, guid: c6cfb6330da3d2c45ae98075d85066d4, type: 3}
+      propertyPath: exitElevator
+      value: 
+      objectReference: {fileID: 3963424214004365527}
     - target: {fileID: 3963424214687634523, guid: c6cfb6330da3d2c45ae98075d85066d4, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1844,3 +1863,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6cfb6330da3d2c45ae98075d85066d4, type: 3}
+--- !u!1 &3963424214004365527 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005990752602943994, guid: c6cfb6330da3d2c45ae98075d85066d4, type: 3}
+  m_PrefabInstance: {fileID: 3963424214004365526}
+  m_PrefabAsset: {fileID: 0}
