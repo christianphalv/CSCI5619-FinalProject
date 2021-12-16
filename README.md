@@ -26,7 +26,7 @@ Third Party Assets: Asset Forge Deluxe (https://kenney.itch.io/assetforge-deluxe
 
 ## Technical Implementation
 
-- VR portals (not in final version)
+- VR portals 
     - Extended Brackeys' portals to work on android VR.
     - These ended up being too slow on mobile VR for our purposes and/or shaders implemented were non-functional with stereoscopic vision provided in an HMD.
 - Stencil buffer
