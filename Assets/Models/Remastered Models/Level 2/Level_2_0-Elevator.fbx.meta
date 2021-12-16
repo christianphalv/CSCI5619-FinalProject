@@ -3,7 +3,57 @@ guid: e488dc4c91ba8fe498c40a970c249897
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat(Clone)
+    second: {fileID: 2100000, guid: 66397bc878f45d34d86e61e563b71018, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom14(Clone)
+    second: {fileID: 2100000, guid: dcda2fdd26d41a844b3ccdcbd450d0d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom15(Clone)
+    second: {fileID: 2100000, guid: 195158293ddc94641bdd53503812e94c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom17(Clone)
+    second: {fileID: 2100000, guid: aede2b4e7af1401408203ef3ce29893b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom32(Clone)
+    second: {fileID: 2100000, guid: d11ab0e13849f9d428abe5aa32c2a945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hay(Clone)
+    second: {fileID: 2100000, guid: b9504e8f3af978542b33a89d5affcc01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal(Clone)
+    second: {fileID: 2100000, guid: ecaee6d8ff1bcd14b833161d933c11da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone(Clone)
+    second: {fileID: 2100000, guid: ac291c2b2818ec744a2a8c1cf5ced60a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood(Clone)
+    second: {fileID: 2100000, guid: 292fcdb5772880545b51b999bb0ef2f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: woodDark(Clone)
+    second: {fileID: 2100000, guid: b7f9d75156746d34aa441b55cc0d97bd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

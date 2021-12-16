@@ -3,7 +3,32 @@ guid: 5fa4a04f04e2f5d449ca86a011a3b548
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat(Clone)
+    second: {fileID: 2100000, guid: 159cd64cfdb777b489be97201b036ce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom14(Clone)
+    second: {fileID: 2100000, guid: a383d96687ae01e42b282aacac50c021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom35(Clone)
+    second: {fileID: 2100000, guid: ae729b1d6b5f7c8459715f6bb87fceaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal(Clone)
+    second: {fileID: 2100000, guid: 8e5425ab4e80e704697c3df834219d87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone(Clone)
+    second: {fileID: 2100000, guid: 2c6d6eb9e955a66428e90e0efc21654a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,87 @@ guid: 35e0c9ffea31d914bbe3e00e086805f9
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat(Clone)
+    second: {fileID: 2100000, guid: 7bd30fec5b06a1a4d8e5963fa0f1d8e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bricks(Clone)
+    second: {fileID: 2100000, guid: 41c5cfbb2cfae8b4bbb774689a2cf1e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bricksDark(Clone)
+    second: {fileID: 2100000, guid: 643d9cee06c7a7a40a2f5242392f3a6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crystal(Clone)
+    second: {fileID: 2100000, guid: 8df1851dfcb562841a35af92339380df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom13(Clone)
+    second: {fileID: 2100000, guid: 128821d75a9b91d46b8a920cd9610e3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom14(Clone)
+    second: {fileID: 2100000, guid: adf83149cf29b914099938f35ad13331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt(Clone)
+    second: {fileID: 2100000, guid: 69ba01591f8b8e74391f624ac779d04d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: foliage(Clone)
+    second: {fileID: 2100000, guid: 553156cd29dd1c444b5cb77cfc4f1590, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red(Clone)
+    second: {fileID: 2100000, guid: 605b2e22abafd364994a6169a2594ec0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: snow(Clone)
+    second: {fileID: 2100000, guid: 4e0f2dd86ce165744a560149900cbbe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: snowRoad(Clone)
+    second: {fileID: 2100000, guid: 2b358b614a8b8214d9f958a3c1f2640a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: snowRoadDark(Clone)
+    second: {fileID: 2100000, guid: f39a42f0274adcf47ac097ca1d5d1e6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steel(Clone)
+    second: {fileID: 2100000, guid: 940019413c079114494345daa52881c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone(Clone)
+    second: {fileID: 2100000, guid: 2d63327d524fda54baafcc60b03ad6e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stoneDark(Clone)
+    second: {fileID: 2100000, guid: b4ed1496fcae1ad448aab463127a4dff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood(Clone)
+    second: {fileID: 2100000, guid: 5cad3e4edca0c7c48955dd45ab4d5d70, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
