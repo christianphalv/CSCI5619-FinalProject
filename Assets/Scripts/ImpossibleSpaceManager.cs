@@ -6,7 +6,7 @@ using UnityEngine;
 public class ImpossibleSpaceManager : MonoBehaviour {
 
     public int _startingSectionID = 1;
-    public Player _player;
+    private Player _player;
 
     private Section[] _sections;
     private Section _currentSection;
@@ -15,6 +15,7 @@ public class ImpossibleSpaceManager : MonoBehaviour {
 
         // Initialize propterties
         _sections = GetComponentsInChildren<Section>();
+        _player = FindObjectOfType<Player>();
 
         // Initialize sections
         foreach (Section section in _sections) {
