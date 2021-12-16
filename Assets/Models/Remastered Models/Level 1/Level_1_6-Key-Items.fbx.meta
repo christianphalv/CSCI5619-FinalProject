@@ -3,7 +3,22 @@ guid: 2dab6d29f830b4841ac8adf4ef413f92
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpet(Clone)
+    second: {fileID: 2100000, guid: 6fa569b28411d7640874aa10fe24978f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom14(Clone)
+    second: {fileID: 2100000, guid: 1f3c82968a94e1543be2d8f670a63242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold(Clone)
+    second: {fileID: 2100000, guid: 8947cc394cb5fb248a3d39b2c16dc1f1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

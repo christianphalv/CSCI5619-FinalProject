@@ -3,10 +3,15 @@ guid: 640585ab1c0d71d49999c049546d7067
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pylon(Clone)
+    second: {fileID: 2100000, guid: 402846df3fe28a54f9525e39ec5ee114, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 0
+    materialName: 2
     materialSearch: 1
     materialLocation: 1
   animations:

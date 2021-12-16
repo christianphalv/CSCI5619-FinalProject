@@ -3,7 +3,17 @@ guid: f018ae4b3dbb77d4fb6ed5fedf177e6b
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bricks(Clone)
+    second: {fileID: 2100000, guid: b76778e1141c95e41b842fb931f475f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom14(Clone)
+    second: {fileID: 2100000, guid: e1b48727d4a479f49b61570964bd8239, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

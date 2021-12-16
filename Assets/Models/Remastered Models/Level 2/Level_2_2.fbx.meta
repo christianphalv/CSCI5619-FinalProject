@@ -7,93 +7,88 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: _defaultMat(Clone)
-    second: {fileID: 2100000, guid: e74e1b41462346a45925cbc3b7143da2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: bricks(Clone)
-    second: {fileID: 2100000, guid: 91e0f2f056b518e4498ac5ffad084a48, type: 2}
+    second: {fileID: 2100000, guid: 7ace873155fc33043aa7cd2512e1dc47, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: custom13(Clone)
-    second: {fileID: 2100000, guid: 19675cced0eebd04c95e7d18e282a22a, type: 2}
+    second: {fileID: 2100000, guid: 202d1395b0b779547a8548f3adebebbd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: custom14(Clone)
-    second: {fileID: 2100000, guid: 0be192b63d349f6489aed1249366230b, type: 2}
+    second: {fileID: 2100000, guid: 6cee3cfaa7eccde4b87394d79837880c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: custom18(Clone)
-    second: {fileID: 2100000, guid: 8e90068f8be97314096ace5b288bc4b6, type: 2}
+    second: {fileID: 2100000, guid: 0a12226bbbcc0994a8dd0fe87915b473, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: custom19(Clone)
-    second: {fileID: 2100000, guid: b9943b99568128649a6df4f216febfe9, type: 2}
+    second: {fileID: 2100000, guid: 8d80dda96b206ef488fbd7a871e72735, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: custom25(Clone)
-    second: {fileID: 2100000, guid: 682bbfcb22d61b4479004a2fbcbdb412, type: 2}
+    second: {fileID: 2100000, guid: eb1f28c6f7bee8544ba6dc98d025ca9f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: custom26(Clone)
-    second: {fileID: 2100000, guid: 688394478ade1cb45ba658f00d1bd2a1, type: 2}
+    second: {fileID: 2100000, guid: 74c170e3fcbc35f4e9312828ec3ea3ec, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: custom27(Clone)
-    second: {fileID: 2100000, guid: a5e30cd82c0103041885ce38212c6fc6, type: 2}
+    second: {fileID: 2100000, guid: efe4b49f36984b04fb4c4578b6e3d520, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: custom30(Clone)
-    second: {fileID: 2100000, guid: eb0e65906b541d645a79bcb83b3efd28, type: 2}
+    second: {fileID: 2100000, guid: 30a89ea1456c22746aef54e5db83b1bc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: custom37(Clone)
-    second: {fileID: 2100000, guid: ebc1735c3b23c8a46aec6abe9c5a8711, type: 2}
+    second: {fileID: 2100000, guid: 9561e6238dc230d4da22d18fa4f242e0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: custom38(Clone)
-    second: {fileID: 2100000, guid: 3c5a9b684be17eb49b08456b23f89f62, type: 2}
+    second: {fileID: 2100000, guid: ad2e47a0689d9384fa99cf06cf67c497, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: custom40(Clone)
+    second: {fileID: 2100000, guid: 0f6e83dd5444e6042b6ce46f9eda4673, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: foliage(Clone)
-    second: {fileID: 2100000, guid: ac58b52264bed59479d2b5bfd16a4dbe, type: 2}
+    second: {fileID: 2100000, guid: 85ef00d4e29434640a1b4fe5c8054dea, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: stone(Clone)
-    second: {fileID: 2100000, guid: 0c140f401e8f3ea41aead583a299f6df, type: 2}
+    second: {fileID: 2100000, guid: ea4cb1836b5c1fe4cbaff4ec2f41c935, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: stoneDark(Clone)
-    second: {fileID: 2100000, guid: 40de8fb476319264d93687d4c190bf45, type: 2}
+    second: {fileID: 2100000, guid: d45f7b59727215c4d9808b7bc82b4cf4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: stoneLight(Clone)
-    second: {fileID: 2100000, guid: 37061fedfd5764f4ead3267f799f028d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: wood(Clone)
-    second: {fileID: 2100000, guid: eeafe013e6a71184e98510a03b052430, type: 2}
+    second: {fileID: 2100000, guid: 7c3958d16e542264480ec9a5aca32b9d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: woodDark(Clone)
-    second: {fileID: 2100000, guid: 09784c6ef58e7cb45800f8e36f1fad9c, type: 2}
+    second: {fileID: 2100000, guid: 9e3b8303a49818e48a6b90a416832c7f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
